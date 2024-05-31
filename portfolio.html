@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>会議ログ抽出</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>会議ログ抽出</h1>
+        <form>
+            <textarea id="textInput" placeholder="ここに会議ログを貼り付けてください"></textarea>
+            <!-- 店舗選択 -->
+            <div class="radios">
+                <label><input type="radio" name="store" value="storeA" checked> A店</label>
+                <label><input type="radio" name="store" value="storeB"> B店</label>
+                <label><input type="radio" name="store" value="storeC"> C店</label>
+                <label><input type="radio" name="store" value="storeD"> D店</label>
+                <label><input type="radio" name="store" value="storeE"> E店</label>
+            </div>
+            <div>
+                <button id="submitButton" type="button">送信</button>
+            </div>
+        </form>
+        <div id="results">結果</div>
+        <script src="main.js"></script>
+</body>
+
+</html>
